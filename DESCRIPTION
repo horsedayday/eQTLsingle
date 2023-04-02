@@ -1,0 +1,32 @@
+Package: eQTLsingle
+Type: Package
+Title: eQTLsingle: Discovering eQTL from single cell RNA-seq data only
+Version: 0.1.0
+License: GPL
+Author: Tianxing Ma <mtx16@mails.tsinghua.edu.cn>
+Maintainer: Tianxing Ma <mtx16@mails.tsinghua.edu.cn>
+Description: This package contains all codes for analyzing eQTL from scRNA-seq data. 
+Depends: R (>= 3.5.0)
+Imports:
+    bbmle (>= 1.0.18),
+    dplyr,
+    gamlss (>= 4.4-0),
+    ggplot2,
+    magrittr,
+    MASS (>= 7.3-45), 
+    Matrix (>= 1.2-14),
+    maxLik (>= 1.3-4),
+    pscl (>= 1.4.9),
+    rlang (>= 0.4.9),
+    stats,
+    stringr,
+    tidyr,
+    utils,
+    VGAM (>= 1.0-2)
+LazyData: true
+Encoding: UTF-8
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
